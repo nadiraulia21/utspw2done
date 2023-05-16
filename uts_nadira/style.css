@@ -1,0 +1,24 @@
+section {
+  background: url("img/donutback.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+section .box{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 20vh;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+
+section a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
